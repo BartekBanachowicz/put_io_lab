@@ -1,0 +1,10 @@
+Zadanie 1.
+
+- Średni czas odpowiedzi: 5674, Przepustowość: 1.5/sec
+- Metoda get w klasie CustomerCardsController przy każdej pętli dwukrotnie odwoływała się do metody averageSpendings, której wynik za każdym razem był taki sam. Przypisanie tej wartości do zmiennej lokalnej przed pętlą for zmniejszyło złożoność obliczeniową z n^3 do 2n.
+- Średni czas odpowiedzi: 237, Przepustowość: 9.0/sec
+
+Zadanie 2.
+
+- Średnia przepustowosć: 2.0/sec
+- Konieczne jest wykorzystanie 29 drukarek, ponieważ ich średnia przepustowość wynosi 5.6/sec (28 drukarek to 5.4/sec)
